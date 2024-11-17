@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./styles/layout.css">
+  <link rel="stylesheet" href="./styles/contact.css">
+  <meta name="description"
+    content="Welcome to Rainydays - your one-stop shop for stylish and durable raincoats. Gear up for any weather and embrace the elements in style. Shop now!">
+  <title>Contact</title>
+</head>
+
+<body>
+  <header>
+    <nav class="nav-bar">
+      <a href="homepage.html">
+        <img src="./assets/layout/rainydays-logo.svg" alt="Rainydays logo">
+      </a>
+      <ul>
+        <li><a href="products.html"><img src="./assets/layout/search-logo.svg" alt="Search logo"></a></li>
+        <li><a href="payment.html"><img src="./assets/layout/shopping-cart-logo.svg" alt="Shopping cart logo"></a></li>
+        <li><a href="contact.html"><img src="./assets/layout/heart-logo.svg" alt="Heart logo"></a></li>
+        <li><button id="btn-login" class="btn-login">Login</button></li>
+      </ul>
+    </nav>
+
+    <div id="login-modal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Login</h2>
+        <form>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" required>
+          <button type="submit">Login</button>
+          <div>
+            <label for="">
+              Remember me
+              <input type="radio" name="" id="">
+            </label>
+            <a href="">Forget password</a>
+          </div>
+          <p>Dont have an account? <strong>
+              <a href="">Register</a>
+            </strong></p>
+        </form>
+      </div>
+    </div>
+
+  </header>
+  <main class="main-cont">
+    <section class="contact-info">
+      <h2>Contact</h2>
+      <ul>
+        <li>
+          <img src="/assets/contact/mail-icon.svg" alt="Mail icon">
+          <p>rainydays@rainydays.com</p>
+        </li>
+        <li>
+          <img src="/assets/contact/location-icon.svg" alt="Location icon">
+          <p>President Harbitz`gate 22B,
+            0259, Oslo, Norway </p>
+        </li>
+        <li>
+          <img src="/assets/contact/phone-icon.svg" alt="Phone icon">
+          <p>+47 1234 5678</p>
+        </li>
+      </ul>
+    </section>
+    <section class="section-form">
+      <form action="" class="contact-form">
+        <div>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone" required>
+        </div>
+        <div>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <nav class="nav-legal">
+      <ul>
+        <li><a>Terms and conditions</a></li>
+        <li><a href="about.html">About us</a></li>
+        <li><a>Cookie policy</a></li>
+        <li><a>Carrier</a></li>
+      </ul>
+    </nav>
+    <div>
+      <div>
+        <p class="follow"><strong>Follow</strong> #RainyDays</p>
+        <nav class="nav-social">
+          <ul>
+            <li><a><img src="./assets/layout/facebook-icon.svg" alt="Facebook logo"></a></li>
+            <li><a><img src="./assets/layout/twitter-icon.svg" alt="Twitter logo"></a></li>
+            <li><a><img src="./assets/layout/instagram-icon.svg" alt="Instagram logo"></a></li>
+            <li>
+              <a><img src="./assets/layout/youtube-icon.svg" alt="Youtube logo"></a>
+            </li>
+            <li class="flag">
+              <img src="./assets/layout/norway-flag.svg" alt="Norway flag">
+            </li>
+            <li>
+              <p>Norway, Norge</p>
+            </li>
+          </ul>
+
+          <small>© 2024 All rights reserved</small>
+
+        </nav>
+      </div>
+  </footer>
+  <script src="scripts/loginModal.js"></script>
+</body>
+
+</html>

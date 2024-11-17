@@ -1,0 +1,19 @@
+#cart-summary{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-family: Philosopher, sans-serif;
+    font-weight: 700;
+}
+
+#checkout-button{
+    background: linear-gradient(90deg, #F5F5F5 0%, #7CB18B 38.5%, #82CD97 100%);
+    border: 1px solid black;
+    height: 50px;
+    font-family: Philosopher, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 100px;
+    cursor: pointer;
+}

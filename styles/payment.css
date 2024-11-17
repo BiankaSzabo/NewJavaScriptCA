@@ -1,0 +1,101 @@
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #A9B6AD 41.5%);
+
+}
+
+.title{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.title h2{
+    margin: 0;
+}
+
+.title span{
+    color: #00000099;
+    font-size: 12px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 400px;
+}
+
+form div{
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+form div span{
+    margin-bottom: 5px;
+}
+
+label{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.card-img-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background: linear-gradient(90deg, #FFFFFF 0%, #999999 99%);
+    border: 1px solid black;
+    border-radius: 15px;
+    height: 40px;
+}
+
+.card-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.card-img-center{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.card-img img{
+    width: 30px;
+}
+
+form input{
+    background: linear-gradient(90deg, #FFFFFF 0%, #999999 99%);
+    border: 1px solid black;
+    border-radius: 15px;
+    height: 40px;
+    padding: 0 15px;
+}
+
+.submit-btn{
+    background: linear-gradient(90deg, #78A083 0%, #999999 99%);
+    border: 1px solid black;
+    font-weight: 700;
+    fornt-size: 20px;
+    font-family: Philosopher, sans-serif;
+    border-radius: 15px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.submit-btn-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
