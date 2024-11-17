@@ -65,7 +65,7 @@ const createItem = (product) => {
   goToCartbutton.textContent = 'Go to cart';
   goToCartbutton.dataset.productId = product.id;
   goToCartbutton.addEventListener('click', (e) => {
-    window.location.href = '/cart.html'
+    window.location.href = 'cart.html'
   });
 
   const deliveryDiv = d.createElement('div');
