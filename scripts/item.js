@@ -59,6 +59,14 @@ const createItem = (product) => {
     e.preventDefault();
     addToCart(product);
   });
+  
+  const goToCartbutton = d.createElement('button');
+  goToCartbutton.type = 'button';
+  goToCartbutton.textContent = 'Go to cart';
+  goToCartbutton.dataset.productId = product.id;
+  goToCartbutton.addEventListener('click', (e) => {
+    window.location.href = '/cart.html'
+  });
 
   const deliveryDiv = d.createElement('div');
 
@@ -74,6 +82,7 @@ const createItem = (product) => {
 
   form.appendChild(select);
   form.appendChild(button);
+  form.appendChild(goToCartbutton);
   form.appendChild(deliveryDiv);
 
   itemCont.appendChild(itemDescription);
